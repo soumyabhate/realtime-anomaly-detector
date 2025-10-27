@@ -1,0 +1,18 @@
+rules:
+  - id: max_people
+    type: count_over
+    class: person
+    threshold: 3
+
+  - id: forbid_phone
+    type: forbid_class
+    class: cell phone
+
+  - id: missing_ppe
+    type: require_together
+    require: ["person", "helmet"]
+
+  - id: too_close
+    type: min_distance
+    class: person
+    pixels: 120
