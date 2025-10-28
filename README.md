@@ -69,7 +69,7 @@ Run this from the Jetson host terminal:
 sudo docker run -it --rm   --runtime nvidia   --network host   --privileged   -e DISPLAY=$DISPLAY   -v /tmp/argus_socket:/tmp/argus_socket   -v /tmp/.X11-unix:/tmp/.X11-unix   -v /dev/video0:/dev/video0   -v /home/ms77930/jetson-inference:/jetson-inference   -v /home/ms77930/jetson-inference/build/aarch64:/arch-build   -v /home/ms77930/recordings:/recordings   -v /usr/lib/python3.8/dist-packages:/usr/lib/python3.8/dist-packages   -v /usr/lib/aarch64-linux-gnu:/usr/lib/aarch64-linux-gnu   nvcr.io/nvidia/l4t-ml:r35.2.1-py3   /bin/bash
 ```
 
-After the prompt changes to `root@soumya:/#`, you’re inside the container.
+After the prompt changes to `root@soumya:/#` (or similar according to your username), you’re inside the container.
 
 ---
 
