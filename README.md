@@ -1,6 +1,6 @@
 # 🧠 Real-Time Anomaly Detection on Jetson Nano
 **Course:** DATA 690 – Special Topics in AI  
-**Student:** Soumya Bhate
+**Student:** Soumya Bhate 
 **Instructor:** Prof. Levan Sulimanov
 ---
 
