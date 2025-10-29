@@ -131,6 +131,6 @@ This script starts `detectnet`, parses its output, and writes alerts to `anomaly
 ---
 
 ## 🙏 Acknowledgements
-Developed as part of the mini project for the course **DATA 690 – Special Topics in AI (UMBC)**.
-Under the guidance of **Prof. Levan Sulimanov**.  
-Built on **NVIDIA Jetson Nano**, **JetPack 5.x**, and the **Jetson-Inference** framework.  
+- Developed as part of the mini project for the course **DATA 690 – Special Topics in AI (UMBC)**.
+- Under the guidance of **Prof. Levan Sulimanov**.  
+- Built on **NVIDIA Jetson Nano**, **JetPack 5.x**, and the **Jetson-Inference** framework.  
